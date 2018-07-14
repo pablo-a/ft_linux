@@ -1,0 +1,3 @@
+/dev/sda3 -> boot
+/dev/sda4 -> root
+/dev/sda7 -> swap
