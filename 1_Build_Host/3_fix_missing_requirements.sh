@@ -8,7 +8,7 @@ sudo ln -s /usr/bin/bison /usr/bin/yacc
 # C++ compiler
 sudo dnf install -y gcc-c++
 # Downgrade GCC cuz not tested for LFS (8.3 => 8.2)
-sudo dng downgrade gcc
+sudo dnf downgrade -y gcc
 
 # Make & patch
 sudo dnf install -y make patch
