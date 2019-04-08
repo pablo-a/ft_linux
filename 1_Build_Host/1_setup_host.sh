@@ -1,4 +1,4 @@
-sudo dnf update
+sudo dnf update -y
 sudo dnf upgrade -y
 
 # install chsh binary
